@@ -12,11 +12,11 @@
 * Special constants &directives
 * Macro examples,side effects 
 * Conditional inclusion directives
-    #include
-    #define
-    #undef
-    #ifdef
-    #ifndef
+    #include for including the header files
+    #define for defining the macros
+    #undef to remove the defination of macros which we have defined
+    #ifdef to check if certain values are defined already
+    #ifndef opposite of ifdef
     #if
     #else
     #elif

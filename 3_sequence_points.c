@@ -14,7 +14,7 @@ unsigned account(void) {
 int main()
 {
     int i = 0;
-    int a[10] ={};
+    int a[10] ={1,2,3,4,5,6,7,8,9,10};
 
     /* Expressions with no Sequnece points */
     a[i++] = i;
@@ -25,7 +25,7 @@ int main()
      i++ * i++;
 
     i++ & i++;
-    f(x++, x++); /* the ',' in a function call is *not* the same as the comma operator */
+ //   f(x++, x++); /* the ',' in a function call is *not* the same as the comma operator */
     i++ * i++;
     
     printf("the order is %u %u\n", account(), account());
